@@ -51,6 +51,9 @@ aside a:visited,
 .tt-icon-box span.fa-stack
 {color: #0070B3;}
 
+
+
+
 header .subnav li:hover > a:first-child:link, .tabs_type_1 dt:hover, .tabs_type_2 dt:hover{
 color: #0070B3 !important;
 }

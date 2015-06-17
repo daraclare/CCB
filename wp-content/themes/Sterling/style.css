@@ -764,9 +764,10 @@ a {
 }
 
 p {
-	font-size: 13px;
+	font-size: 16px;
 	margin-bottom: 18px;
 	line-height: 1.6em;
+    font-weight: 300;
 }
 
 .callout-text p {
@@ -801,6 +802,7 @@ h3 {
 
 h4 {
 	font-size: 18px;
+    font-weight:300;
 }
 
 h5 {
@@ -825,7 +827,7 @@ h3 + p {
 }
 
 h4 + p {
-	margin-top: 12px;
+	margin-top: 2px;
 }
 
 h5 + p {
@@ -2891,6 +2893,7 @@ footer *,
 footer a:hover,
 footer span {
 	color: #FFF;
+      font-size: 13px;
 }
 
 footer .current-menu-item a {
@@ -6897,6 +6900,7 @@ a.instagram {
 
 .business-hours .day {
 	font-weight: bold;
+    font-size: 13px;
 }
 
 .business-hours .hours {
@@ -6909,10 +6913,12 @@ a.instagram {
 .contact_details p {
 	margin-bottom: 3px;
 	line-height: 17px;
+    font-size: 14px;
 }
 
 .contact_details .address {
 	margin-bottom: 18px;
+    
 }
 
 .contact_details_wrap {
