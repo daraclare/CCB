@@ -7477,6 +7477,11 @@ div.light_rounded .pp_top .pp_middle,div.light_rounded .pp_content_container .pp
 	padding-top: 233px;	
 }
 
+@media screen and (max-width: 400px){
+.banner-slider {
+	padding-top: 100px;	
+}
+
 .small_banner {
 	padding-top: 249px !important;	
 }	

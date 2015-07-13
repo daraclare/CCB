@@ -7,7 +7,7 @@
 
         if ( 'true' == $blog_retweet ) : ?>
             <span class="retweet-share">
-                <a href="http://twitter.com/share" class="twitter-share-button" data-url="<?php the_permalink(); ?>" data-via="<?php esc_attr( bloginfo( 'name' ) ); ?>" data-text="<?php the_title_attribute(); ?>" data-related="<?php esc_attr( bloginfo( 'name' ) ); ?>" data-count="horizontal">Tweet</a>
+                <a href="http://twitter.com/share" class="twitter-share-button" data-url="<?php the_permalink(); ?>" data-via="building_cc" data-text="<?php the_title_attribute(); ?>" data-related="<?php esc_attr( bloginfo( 'name' ) ); ?>" data-count="horizontal">Tweet</a>
             </span>
             <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
         <?php endif;
